@@ -1,0 +1,16 @@
+img{
+    width: 350px;
+    height: 300px;
+}
+h5{
+    text-align: center;
+    font-weight: bolder;
+}
+#button{
+    color: white;
+    background-color: black;
+}
+#button:hover{
+    background-color: white;
+    color: black;
+}
