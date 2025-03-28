@@ -1,0 +1,349 @@
+/* Reset and Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+    background-color: #f8f9fa;
+}
+/* navbar */ 
+   #a{
+    color:#cc9b2e ;
+    margin-left: 20px;
+    font-weight: bolder;
+    font-size: 22px;
+    }
+    #navbarDropdown{
+    color:#cc9b2e ;
+    margin-left: 20px;
+    font-weight: bolder;
+    }
+    .dropdown-item{
+    color:#cc9b2e;
+    font-weight: bolder;
+    }
+    select{
+    color:#cc9b2e ;
+    background-color: black;
+    font-weight: bolder;
+    height: 50px;
+    margin-top: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    #a:hover{
+        color: white;
+    }
+    nav{
+        background-color:black;
+    }
+    .logo{
+        background-color: transparent;
+        width: 300px;
+    }
+   #cate{
+    color: #cc9b2e;
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 25px;
+    margin-top: 8px;
+   }
+   #dropdown{
+    margin-left: 10px;
+   }
+#nav{
+  position: fixed;
+   top: 0px;
+   z-index: 1;
+}
+/* ✅ Universal Parallax Style */
+.parallax {
+    height: 60vh;  /* Height increase ki takay parallax proper lage */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.7);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+}
+.parallax h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#head{
+    color:black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+/* ✅ Banner */
+.parallax-hero {
+    background-image: url('Invitation\ card.jpg'); /* Top Banner */
+    height: 600px;
+}
+#cqn{
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 80px;
+}
+.parallax-about {
+    background-image: url('Invitation\ card\ \(1\).jpg'); /* About Us ke Neeche */
+}
+
+.parallax-contact {
+    background-image: url('Invitation\ card\ \(2\).jpg'); /* Contact Section Ke Upar */
+}
+/* About Us Section */
+.about-section {
+    padding: 80px 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+.about-section h2 {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.about-section img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+#get{
+  color: black;
+}
+/* Contact Section Layout */
+.contact-section {
+    padding: 50px 0;
+}
+
+/* Contact Info + Map */
+.contact-info {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+#contact{
+  font-weight: bolder;
+  font-size: 50px;
+  color: black;
+}
+.contact-info h2 {
+    color: #dc3545;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.contact-info strong {
+    color: #dc3545;
+}
+
+/* Google Map */
+.map-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-container iframe {
+    width: 80%;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+    text-align: center;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+#message{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+.contact-form .form-label {
+    font-weight: bold;
+}
+.contact-form .btn {
+    width: 100%;
+    background-color: black;
+    color: #cc9b2e;
+}
+.contact-form .btn:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+label{
+    color: black;
+}
+#bto{
+  width: 200px;
+}
+/* Footer */
+.info_section {
+    position: relative;
+    background-color :black;
+    color: #ffffff;
+  }
+  
+  .info_section .heading_container {
+    margin-bottom: 45px;
+  }
+  
+  .info_section h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .info_section .info_top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 35px;
+    margin-bottom: 75px;
+  }
+  #log{
+    width: 300px;
+  }
+  .info_section .info_top .info_logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .info_section .info_top .info_logo img {
+    width: 65px;
+  }
+  
+  .info_section .info_top .info_logo span {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  .info_section .info_top .social_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .info_section .info_top .social_box a {
+    margin: 0 10px;
+  }
+  
+  .info_section .info_top .social_box a img {
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+  }
+  
+  .info_section a {
+    text-transform: none;
+  }
+  
+  .info_section ul {
+    padding: 0;
+  }
+  
+  .info_section ul li {
+    list-style-type: none;
+    margin: 3px 0;
+  }
+  
+  .info_section ul li a {
+    color: #ffffff;
+  }
+  
+  .info_section .info_link-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  .info_section .info_form form input {
+    outline: none;
+    width: 100%;
+    padding: 7px 10px;
+  }
+  #bt{
+    margin-top: 10px;
+    background-color: #cc9b2e;
+    color: black;
+  }
+  #bt:hover{
+    color: #cc9b2e;
+    background-color: black;
+    border: 1px solid #cc9b2e;
+  }
+  .info_section .info_contact .link-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 30px 0;
+    color: #ffffff;
+  }
+  
+  .info_section .info_contact .link-box .img-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-width: 45px;
+    min-height: 45px;
+    margin-right: 20px;
+  }
+  
+  .info_section .info_contact .link-box .img-box img {
+    width: auto;
+    height: auto;
+    max-width: 30px;
+    max-height: 30px;
+  }
+  i{
+    font-size: 30px;
+  }
+  i:hover{
+    color: #cc9b2e;
+  }
+  #footer{
+    width: 1263px;
+  }

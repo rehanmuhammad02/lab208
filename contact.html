@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARDS SPECIAL</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <link rel="icon" href="logo.jpg">      
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- ✅ Navbar -->
+    <div class="container-fluid">
+        <div class="row">
+                 <!-- navbar -->
+            <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+              <div class="container-fluid">
+                <img src="logo.jpg" alt="" class="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#" id="a">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#" id="a">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"  id="a">CONATCT</a>
+                      </li>
+                      <li id="cate">CATEGORIES:-</li>
+              <select id="dropdown">
+                <option value="option1">Wedding Invitations</option>
+                <option value="option2">Birthday Invitations </option>
+                <option value="option3">Baby Shower Invitations</option>
+                <option value="option4">Bridal Shower Invitations</option>
+                <option value="option2">Engagement Invitations</option>
+                <option value="option3">Anniversary Invitations</option>
+                <option value="option4">Graduation Invitations </option>
+                <option value="option2">Housewarming Invitations</option>
+                <option value="option3">Holiday Party Invitations </option>
+                <option value="option4">Corporate/Event Invitations </option>
+                <option value="option4">Dinner party  Invitations </option>
+                <option value="option4">Reunion Invitations </option>
+              </select> 
+                  </ul>
+                </div>
+              </div>
+            </nav> 
+    <!-- ✅ Banner -->
+    <section class="parallax parallax-hero">
+        <h1 id="cqn">Contact Us</h1>
+    </section>
+
+    <!-- ✅ About Us Section -->
+    <section class="about-section container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="image front.jpg" alt="About Us">
+            </div>
+            <div class="col-md-6">
+                <div class="contact-info">
+                    <h2 id="get">GET IN TOUCH</h2>
+                    <p><strong id="get">📍 ADDRESS:</strong> 123 Greeting Card Street, Lahore, Pakistan</p>
+                    <p><strong id="get">📧 EMAIL:</strong> info@redcardslimited.com</p>
+                    <p><strong id="get">📞 PHONE:</strong> +92 123 456 7890</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ✅ Parallax Between About & Contact -->
+    <section class="parallax parallax-about">
+        <h1 id="cqn">We Create Unique Cards</h1>
+    </section>
+
+    <!-- ✅ Contact Information -->
+    <section class="contact-section container">
+        <div class="contact-info">
+            <h2 id="location">LOCATION</h2>
+           
+        </div>
+    </section>
+
+    <!-- ✅ Google Map -->
+    <section class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.8223920317!2d90.27923750811556!3d23.780636248247814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c128a315e0e5%3A0x5dfb3b6206c3115e!2sLahore%2C+Pakistan!5e0!3m2!1sen!2sbd!4v1619079090733!5m2!1sen!2sbd" " allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <!-- ✅ Parallax Before Form -->
+    <section class="parallax parallax-contact">
+        <h1 id="cqn">Let’s Connect!</h1>
+    </section>
+
+    <!-- ✅ Contact Form -->
+    <section class="container contact-form">
+        <h2 id="message">SEND US A MESSAGE</h2>
+        <form>
+            <div class="col-md-12">
+                <h2 id="message">GET IN TOUCH</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">FULL NAME</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">EMAIL ADDRESS</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">YOUR MESSAGE</label>
+                        <textarea class="form-control" id="message" rows="4" placeholder="Type your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-danger" id="bto">Send Message</button>
+                </form>
+            </div>
+        </div>
+            
+    </section>
+
+    <!-- ✅ Footer -->
+    <section class="info_section" id="footer">
+        <div class="info_container layout_padding-top">
+          <div class="container">
+            <div class="info_top">
+              <div class="info_logo">
+                <span>
+                  <img src="logo.jpg" alt="" id="log">
+                  CARDS SPECIAL
+                </span>
+              </div>
+              <div class="social_box">
+                <a href="#">
+                  <i class="bi bi-google"></i>
+                </a>
+                <a href="#">
+                <i class="bi bi-youtube"></i>
+               </a>
+                <a href="#">
+                <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#">
+                 <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#">
+                <i class="bi bi-linkedin" ></i>
+                </a>
+                <a href="#">
+                <i class="bi bi-github"></i>
+                </a>
+              </div>
+            </div>
+            <div class="info_main">
+              <div class="row">
+                <div class="col-md-3 col-lg-2">
+                  <div class="info_link-box">
+                    <h5>
+                      USEFUL LINKS
+                    </h5>
+                    <ul>
+                      <li class=" active">
+                        <a class="" href="index.html">HOME <span class="sr-only"></span></a>
+                      </li>
+                      <li class="">
+                        <a class="" href="about.html">ABOUT </a>
+                      </li>
+                      <li class="">
+                        <a class="" href="work.html">CONTACT</a>
+                      </li>
+                      <li class="">
+                        <a class="" href="category.html">CATEGORY </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-md-3 ">
+                  <h5>
+                    Offices
+                  </h5>
+                  <p>
+                    Readable content of a page when looking at its layoutreadable content of a page when looking at its layout
+                  </p>
+                </div>
+    
+                <div class="col-md-3 col-lg-2 offset-lg-1">
+                  <h5>
+                    Information
+                  </h5>
+                  <p>
+                    Readable content of a page when looking at its layoutreadable content of a page when looking at its layout
+                  </p>
+                </div>
+    
+                <div class="col-md-3  offset-lg-1">
+                  <div class="info_form ">
+                    <h5>
+                      Newsletter
+                    </h5>
+                    <form action="">
+                      <input type="email" placeholder="Email">
+                      <button class="btn btn-dark" id="bt">
+                        SUBMIT
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-9 col-md-10 mx-auto">
+                <div class="info_contact layout_padding2">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <a href="#" class="link-box">
+                        <div class="img-box">
+                          <img src="images/location.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h6>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Location
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4">
+                      <a href="#" class="link-box">
+                        <div class="img-box">
+                          <img src="images/mail.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h6>
+                            <i class="bi bi-envelope"></i>
+                            demo@gmail.com
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-5">
+                      <a href="#" class="link-box">
+                        <div class="img-box">
+                          <img src="images/call.png" alt="">
+                        </div>
+                        <div class="detail-box">
+                          <h6>
+                            <i class="bi bi-telephone-fill"></i>
+                            Call +01 1234567890
+                          </h6>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</div>
+</div>
+</body>
+</html>
